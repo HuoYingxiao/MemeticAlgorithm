@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\KnapsackProblem">
+      <UniqueIdentifier>{088325bd-7591-42dd-8e1c-057644a691cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KnapsackProblem">
+      <UniqueIdentifier>{3653fbd1-8f52-4fb3-9d49-645ce29c1ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runner">
+      <UniqueIdentifier>{c8a970a8-0f34-4773-b807-a5fe81a26a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Runner">
+      <UniqueIdentifier>{f63bfa24-5648-4d53-bfc5-06ed49da60e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{a50ec432-0cba-41df-95dd-c1049e3d1c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{c04e6003-1e64-405c-8f14-1015bcfd5a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Crossover">
+      <UniqueIdentifier>{a0272912-6671-44a8-a65f-961d70c510a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Crossover">
+      <UniqueIdentifier>{28833573-666c-4a06-a897-1b62dd1e551f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\HillClimb">
+      <UniqueIdentifier>{73e44408-4aa3-4cde-ab1b-54e854fe1122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\HillClimb">
+      <UniqueIdentifier>{42f4231a-2de0-4c0d-86de-2a4c3b822b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GAPProblem">
+      <UniqueIdentifier>{3498f073-ec6a-45a8-a2aa-e8c5d38cda22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAPProbllem">
+      <UniqueIdentifier>{6c11150f-c381-49b8-a1a2-f48ff4022f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components\Mutation">
+      <UniqueIdentifier>{2c983398-2b54-4221-ac48-bffac93a7b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components\Mutation">
+      <UniqueIdentifier>{7416a310-05b9-473f-8f64-b40ae86e9d16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Knapsack.h">
+      <Filter>Header Files\KnapsackProblem</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\KnapsackProblem</Filter>
+    </ClInclude>
+    <ClInclude Include="Meme.h">
+      <Filter>Header Files\KnapsackProblem</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Header Files\KnapsackProblem</Filter>
+    </ClInclude>
+    <ClInclude Include="OnePointCrossover.h">
+      <Filter>Header Files\Components\Crossover</Filter>
+    </ClInclude>
+    <ClInclude Include="UniformCrossover.h">
+      <Filter>Header Files\Components\Crossover</Filter>
+    </ClInclude>
+    <ClInclude Include="HillClimbing.h">
+      <Filter>Header Files\Components\HillClimb</Filter>
+    </ClInclude>
+    <ClInclude Include="SDHC.h">
+      <Filter>Header Files\Components\HillClimb</Filter>
+    </ClInclude>
+    <ClInclude Include="RMHC.h">
+      <Filter>Header Files\Components\HillClimb</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHC.h">
+      <Filter>Header Files\Components\HillClimb</Filter>
+    </ClInclude>
+    <ClInclude Include="Replacement.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHeritance.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TournamentSelection.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiMeme.h">
+      <Filter>Header Files\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Runner.h">
+      <Filter>Header Files\Runner</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Header Files\GAPProbllem</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPSolution.h">
+      <Filter>Header Files\GAPProbllem</Filter>
+    </ClInclude>
+    <ClInclude Include="GAPProblem.h">
+      <Filter>Header Files\GAPProbllem</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMutaion.h">
+      <Filter>Header Files\Components\Mutation</Filter>
+    </ClInclude>
+    <ClInclude Include="ExchangeMutation.h">
+      <Filter>Header Files\Components\Mutation</Filter>
+    </ClInclude>
+    <ClInclude Include="Multimeme_GAP_RWD.h">
+      <Filter>Header Files\Runner</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\KnapsackProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="Knapsack.cpp">
+      <Filter>Source Files\KnapsackProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="Solution.cpp">
+      <Filter>Source Files\KnapsackProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="Meme.cpp">
+      <Filter>Source Files\KnapsackProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="OnePointCrossover.cpp">
+      <Filter>Source Files\Components\Crossover</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformCrossover.cpp">
+      <Filter>Source Files\Components\Crossover</Filter>
+    </ClCompile>
+    <ClCompile Include="HillClimbing.cpp">
+      <Filter>Source Files\Components\HillClimb</Filter>
+    </ClCompile>
+    <ClCompile Include="SDHC.cpp">
+      <Filter>Source Files\Components\HillClimb</Filter>
+    </ClCompile>
+    <ClCompile Include="RMHC.cpp">
+      <Filter>Source Files\Components\HillClimb</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHC.cpp">
+      <Filter>Source Files\Components\HillClimb</Filter>
+    </ClCompile>
+    <ClCompile Include="Replacement.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHeritance.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="TournamentSelection.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiMeme.cpp">
+      <Filter>Source Files\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Runner.cpp">
+      <Filter>Source Files\Runner</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Source Files\GAPProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPSolution.cpp">
+      <Filter>Source Files\GAPProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="GAPProblem.cpp">
+      <Filter>Source Files\GAPProblem</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMutaion.cpp">
+      <Filter>Source Files\Components\Mutation</Filter>
+    </ClCompile>
+    <ClCompile Include="ExchangeMutation.cpp">
+      <Filter>Source Files\Components\Mutation</Filter>
+    </ClCompile>
+    <ClCompile Include="Multimeme_GAP_RWD.cpp">
+      <Filter>Source Files\Runner</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
